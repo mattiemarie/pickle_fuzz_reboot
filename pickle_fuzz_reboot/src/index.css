@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+/* Crushed Color Palette */
+--ltpurple: rgba( 144, 103, 172, 1);
+--dkpurple: rgba( 92, 61, 114, 1);
+--pink: rgba( 237, 101, 122, 1);
+--red: rgba( 220, 56, 56, 1);
+--orange: rgba( 242, 99, 36, 1);
+--yelloworange: rgba( 250, 162, 40, 1);
+--yellow: rgba( 255, 206, 47, 1);
+--green: rgba( 177, 193, 54, 1);
+--teal: rgba( 51, 190, 183, 1);
+--blue: rgba( 61, 165, 216, 1);
+--cream: rgb(255, 251, 239);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ---------------- Products ------------------ */
+.products-container {
+  background-color: var(--ltpurple);
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product-card {
+  background-color: var(--dkpurple) !important;
+  /* border: 7px solid var(--ltpurple) !important; */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.product-image {
+  display: flex;
+  align-content: center;
+  width: 350px;
+  height: 350px;
+  /* border: 7px solid var(--ltpurple) */
+}
+
+.product-heading {
+  color: var(--cream);
+  font-weight: bolder;
+  font-size: 28px !important;
+  text-align: center;
+}
+
+.product-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--teal);
+  margin-bottom: none !important;
+}
+
+.product-footer {
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-price {
+  margin-left: 10px;
+  color: var(--cream);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-button {
+  margin-right: 10px;
+  background-color: var(--teal) !important;
+  color: var(--cream);
+  font-weight: bold !important;
+}
+
+.product-button:hover {
+  background-color: var(--ltpurple) !important;
+  color: var(--cream);
 }
