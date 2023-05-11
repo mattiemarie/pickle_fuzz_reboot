@@ -39,6 +39,28 @@
   border-radius: 0 !important;
 }
 
+/* ------------------ Navbar ------------------ */
+.nav-container {
+  display: flex;
+  background-color: var(--dkpurple);
+}
+
+.nav-tabs {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.icon-btns {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* ---------------- Products ------------------ */
 .products-container {
   background-color: var(--ltpurple);
