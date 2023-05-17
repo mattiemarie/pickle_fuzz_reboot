@@ -43,15 +43,47 @@
 .nav-container {
   display: flex;
   background-color: var(--dkpurple);
+  width: 100% !important;
 }
 
 .nav-tabs {
   display: flex;
   text-align: left;
   align-items: center;
+  justify-content: flex-start;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 60px !important;
+  font-size: 25px;
+  font-weight: bolder;
+  color: var(--cream)
+}
+
+.products-tab {
+ margin-right: 30px;
+}
+
+.products-tab:hover {
+  color:var(--ltpurple);
+  text-decoration: none !important;
+}
+
+.faq-tab {
+  margin-right: 30px;
+ }
+
+.faq-tab:hover {
+  color:var(--ltpurple);
+  text-decoration: none !important;
+}
+
+.contact-tab {
+  margin-right: 30px;
+ }
+
+.contact-tab:hover {
+  color:var(--ltpurple);
+  text-decoration: none !important;
 }
 
 .icon-btns {
@@ -59,7 +91,28 @@
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  justify-content: flex-end;
+  font-size: 20px !important;
+  font-weight: bolder !important;
+  background-color: none !important;
 }
+
+.shopping-cart {
+  color: var(--dkpurple);
+  background-color: var(--cream) !important;
+  margin-right: 20px;
+}
+
+.shopping-cart:hover {
+  color: var(--ltpurple);
+}
+
+.instagram {
+  color: var(--dkpurple);
+  background-color: var(--cream) !important;
+  margin-right: 20px;
+}
+
 
 /* ---------------- Products ------------------ */
 .products-container {

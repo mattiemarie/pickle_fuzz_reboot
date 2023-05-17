@@ -12,17 +12,17 @@ function Navbar () {
             </Box>
             <Box className='nav-tabs'>
               <Box className='products-tab'>
-                <Link href="#">
+                <Link href="Products">
                   Products
                 </Link>
               </Box>
               <Box className='faq-tab'>
-                <Link href="#">
+                <Link href="FAQ">
                   FAQ
                 </Link>
               </Box>
               <Box className='contact-tab'>
-                <Link href="#">
+                <Link href="Contact">
                   Contact
                 </Link>
               </Box>
@@ -31,10 +31,11 @@ function Navbar () {
           {/* Right side */}
           <Flex className='icon-btns'>
             <IconButton
-              aria-label="Shopping cart"
+              className='shopping-cart' 
               icon={<ShoppingCartIcon />}
             />
             <IconButton
+              className='instagram'
               aria-label="Instagram"
               icon={<InstagramIcon />}
               href="#"
