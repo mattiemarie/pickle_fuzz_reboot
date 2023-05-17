@@ -13,7 +13,9 @@ import cow_bag_front from './images/cow_bag_front.jpg';
 
 function Products () {
   return (
-  <div className='products-container'>    
+  <div className='products-container'>
+    <div className='products-heading'>Products</div>
+        
     <div className= 'card-container'>
 
       {/* Woohoo Wall Hanging */}
