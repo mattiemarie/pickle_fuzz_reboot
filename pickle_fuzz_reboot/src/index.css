@@ -199,6 +199,35 @@
 
 /* ---------------------- FAQ  ------------------------- */
 
+.faq-container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--ltpurple);
+}
+
+.faq-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--cream);
+}
+
+.accordion-container {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  width: 75% !important;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--teal);
+  color: var(--cream);
+  font-weight: bolder !important;
+  font-size: 20px !important;
+}
+
 /* -------------------- CONTACT ------------------------ */
 
 .contact-image-container {

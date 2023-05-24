@@ -3,7 +3,7 @@ import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIco
 const faqData = [
   {
     question: 'Why get a Pickle Fuzz Product?',
-    answer: 'Why not? Each Product is handmade with lots of Love! :).'
+    answer: 'Why not? Each Product is handmade with lots of Love! :)'
   },
   {
     question: 'Shipping and Processing Times?',
@@ -21,9 +21,14 @@ const faqData = [
 
 function FAQ() {
   return (
-    <Accordion className='accordion'>
-      {faqData.map((item, index) => (
-        <AccordionItem key={index}>
+    <div className='faq-container'>
+      <div className='faq-heading'>
+      FAQ
+      </div>
+      <div className='accordion-container'>
+      <Accordion className='accordion'>
+        {faqData.map((item, index) => (
+        <AccordionItem className='accoridon-item' key={index}>
           <AccordionButton>
             <Box flex="1" textAlign="left">
               {item.question}
@@ -32,8 +37,10 @@ function FAQ() {
           </AccordionButton>
           <AccordionPanel pb={4}>{item.answer}</AccordionPanel>
         </AccordionItem>
-      ))}
-    </Accordion>
+        ))}
+      </Accordion>
+      </div>
+    </div>
   );
 }
 
