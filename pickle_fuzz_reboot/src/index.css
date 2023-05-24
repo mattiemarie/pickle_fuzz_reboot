@@ -197,7 +197,22 @@
   color: var(--cream);
 }
 
+/* ---------------------- FAQ  ------------------------- */
+
 /* -------------------- CONTACT ------------------------ */
+
+.contact-image-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--ltpurple);
+}
+
+.contact_image {
+  margin-top: 40px;
+  display: flex;
+  align-content: center;
+  height: 350px;
+}
 
 .contact-container {
   display: block;
