@@ -35,7 +35,7 @@ function FAQ() {
             </Box>
             <AccordionIcon />
           </AccordionButton>
-          <AccordionPanel pb={4}>{item.answer}</AccordionPanel>
+          <AccordionPanel className='accordion-panel'>{item.answer}</AccordionPanel>
         </AccordionItem>
         ))}
       </Accordion>

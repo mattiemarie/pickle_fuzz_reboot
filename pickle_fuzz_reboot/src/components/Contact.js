@@ -6,6 +6,7 @@ import contact_image from './images/contact-page.jpg'
 function Contact() {
   return (
     <div className='contact-container'>
+        <div className='contactme-text'>Contact Me</div>
         <div className='contact-image-container'>
           <Image
             className='contact_image'
@@ -14,7 +15,6 @@ function Contact() {
             borderRadius='lg'
           />
           </div>
-        <div className='contactme-text'>Contact Me</div>
         {/* Contact Me Form */}
         <div className='touch-text'> If you have any questions or wish to get in touch send me a message! </div>
 
