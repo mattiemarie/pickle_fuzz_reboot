@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@300;400;500;600;700&family=Lilita+One&family=Prompt:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: 'Prompt', sans-serif !important;
+  letter-spacing: 1px;
+}
+
 :root {
 /* Crushed Color Palette */
 --ltpurple: rgba( 144, 103, 172, 1);
@@ -199,8 +205,8 @@
 }
 
 .product-button:hover {
-  background-color: var(--ltpurple) !important;
-  color: var(--cream);
+  box-shadow: -1px 3px 20px var(--teal);
+  transition: transform 100ms;
 }
 
 /* ---------------------- FAQ  ------------------------- */

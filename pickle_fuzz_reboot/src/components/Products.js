@@ -30,7 +30,7 @@ function Products () {
           <Stack mt='6' spacing='3'>
           <Heading className='product-heading' size='md'>Woohoo! Wall Hanging</Heading>
           <Text className='product-text'>
-            10” X 12” Needle Punch Wall Mirror Hanging
+            10” X 12” Needle Punch Mirror
           </Text>
           </Stack>
         </CardBody>
@@ -56,7 +56,7 @@ function Products () {
           <Stack mt='6' spacing='3'>
           <Heading className='product-heading' size='md'>Greeny Wall Mirror</Heading>
           <Text className='product-text'>
-            12" X 12" Needle Punch Wall Mirror Hanging
+            12" X 12" Needle Punch Mirror
           </Text>
           </Stack>
         </CardBody>
@@ -134,7 +134,7 @@ function Products () {
           <Stack mt='6' spacing='3'>
           <Heading className='product-heading' size='md'>Feelin' Devilish</Heading>
           <Text className='product-text'>
-            8.5” X 6.5” X 2.5” Crochet Bag with a Black Linen Lining
+            8.5” X 6.5” X 2.5” Crochet Bag
           </Text>
           </Stack>
         </CardBody>
