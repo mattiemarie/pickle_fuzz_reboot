@@ -28,9 +28,9 @@ function FAQ() {
       <div className='accordion-container'>
       <Accordion className='accordion'>
         {faqData.map((item, index) => (
-        <AccordionItem className='accoridon-item' key={index}>
-          <AccordionButton>
-            <Box flex="1" textAlign="left">
+        <AccordionItem className='accordion-item' key={index}>
+          <AccordionButton className='accodion-button'>
+            <Box className='accordion-question' flex="1" textAlign="left">
               {item.question}
             </Box>
             <AccordionIcon />

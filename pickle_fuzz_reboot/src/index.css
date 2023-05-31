@@ -139,6 +139,7 @@
   font-size: 45px;
   font-weight: bold;
   color: var(--cream);
+  padding-top: 50px;
 }
 
 .card-container {
@@ -178,7 +179,7 @@
 
 .product-text {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--teal);
   margin-bottom: none !important;
@@ -199,6 +200,7 @@
 
 .product-button {
   margin-right: 10px;
+  font-size: 20px !important;
   background-color: var(--teal) !important;
   color: var(--cream);
   font-weight: bold !important;
@@ -222,11 +224,13 @@
   font-size: 45px;
   font-weight: bold;
   color: var(--cream);
+  padding-top: 50px;
 }
 
 .accordion-container {
   display: flex;
   justify-content: center;
+  outline: none !important;
 }
 
 .accordion {
@@ -235,10 +239,20 @@
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--dkpurple);
-  border-radius: 5px !important;
+  border-radius: 10px 10px 10px 10px !important;
   color: var(--cream);
-  font-weight: bolder !important;
   font-size: 20px !important;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-question {
+  font-size: 20px !important;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .accordion-panel {
@@ -255,7 +269,7 @@
 }
 
 .contact_image {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   align-content: center;
   height: 350px;
@@ -274,6 +288,7 @@
   color: var(--cream);
   background-color: var(--ltpurple);
   font-weight: bold;
+  padding-top: 20px;
 }
 
 .touch-text  {
@@ -281,14 +296,16 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: var(--teal);
+  padding-bottom: 20px;
 }
 
 .contact-text {
   color: var(--yellow);
   font-weight: bold !important;
+  font-size: 20px !important;
 }
 
 .contact-input {
@@ -302,6 +319,7 @@
   margin-bottom: 50px;
   font-weight: bold !important;
   background-color: var(--yellow) !important;
+  font-size: 20px !important;
   color: var(--cream)
 }
 
@@ -334,6 +352,6 @@
   justify-content: center;
   background-color: var(--ltpurple);
   color: var(--cream);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
 }
